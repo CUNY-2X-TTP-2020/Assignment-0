@@ -1,5 +1,6 @@
-function greetFriend(name) {
-  // Insert code here;
+function greetFriend(name)
+{
+    return "Hello, ".concat(name).concat("!");
 }
 
 // Do not edit this line;
