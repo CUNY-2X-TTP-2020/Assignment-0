@@ -1,5 +1,10 @@
-function sumOfAllOddNumbers(nums) {
-  // Insert code here;
+function sumOfAllOddNumbers(nums)
+{
+    return nums.reduce((sum, item) =>
+    {
+        item % 2 !== 0 ? sum++ : sum;
+        return sum;
+    }, 0);
 }
 
 // Do not edit this line;
