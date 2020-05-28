@@ -1,3 +1,6 @@
+# Assignment 0
+![Node.js CI](https://github.com/CUNY-2X-TTP-2020/Assignment-0/workflows/Node.js%20CI/badge.svg?branch=master)
+
 * 00-greetFriend
 * 01-titleCaseEdit
 * 02-subtractFive
