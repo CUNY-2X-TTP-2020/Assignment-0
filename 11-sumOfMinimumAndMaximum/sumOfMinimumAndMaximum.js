@@ -1,5 +1,6 @@
-function sumOfMinimumAndMaximum(nums) {
-  // Insert code here;
+function sumOfMinimumAndMaximum(nums)
+{
+    return Math.min(...nums) + Math.max(...nums);
 }
 
 // Do not edit this line;
