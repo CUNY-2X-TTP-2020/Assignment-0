@@ -1,5 +1,10 @@
-function setUnionOfAnyAmountOfSets(...args) {
-  // Insert code here;
+function setUnionOfAnyAmountOfSets(...args)
+{
+    return args.reduce((union, current) =>
+    {
+        union = new Set([...union, ...current]);
+        return union;
+    });
 }
 
 // Do not edit this line;
